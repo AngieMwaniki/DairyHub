@@ -2,7 +2,7 @@
 margin: 0%;
 box-sizing: border-box;
 font-family: poppins, sans-serif;
-background-image: url(styles/dairy2.jpg); background-position: center;}
+background-color: darkgrey;}
 
 .topbar{position: fixed;
     display: flex;
@@ -16,7 +16,8 @@ width: 100%;
 color: blue;
 font-style: italic;
 }
-.table1{margin:80px; height: 400px; width: 1000px;}
+.table1{margin:80px; border: 1px solid #002e96; margin-left: auto;
+margin-right: auto;}
 
 .milk{display: flex;
       height: 70%;
@@ -24,4 +25,6 @@ font-style: italic;
     justify-items: center;justify-content: space-between;
 }
 
-th td{border-collapse: collapse;}
+ .table1 th, td {border-collapse: collapse; border: 1px solid #002e96;}
+
+ .table2 th, td {border-collapse: collapse;  border: 0.1px solid #002e96; height: 60px;width: 200px;text-align: left;}
