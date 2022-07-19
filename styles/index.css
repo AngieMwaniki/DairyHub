@@ -16,4 +16,12 @@ width: 100%;
 color: blue;
 font-style: italic;
 }
-.table1{margin:80px; background-image: url(styles/dairy2.jpg);}
+.table1{margin:80px; height: 400px; width: 1000px;}
+
+.milk{display: flex;
+      height: 70%;
+      width: 80%;
+    justify-items: center;justify-content: space-between;
+}
+
+th td{border-collapse: collapse;}
