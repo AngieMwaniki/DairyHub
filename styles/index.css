@@ -22,9 +22,9 @@ margin-right: auto;}
 .milk{display: flex;
       height: 70%;
       width: 80%;
-    justify-items:center: space-between;
+    justify-items:space-between;
     align-items: center;
-    margin-left: 100px
+    margin-left: 100px;
 }
 
  .table1 th, td {border-collapse: collapse; border: 1px solid #002e96;}
@@ -35,3 +35,5 @@ margin-right: auto;}
  .month{background-image: url(styles/dairy3.jpg);}
 
  .text{text-align: center;background-color: #002e96;box-sizing: border-box; color: #002e96;}
+
+ .text2{text-align: left; color: #002e96;}
